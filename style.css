@@ -1,0 +1,363 @@
+body {
+    background-color: rgb(66, 66, 66);
+}
+nav {
+    background-color: #333;
+    padding: 1rem;
+}
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    gap: 2rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+.menu li a:hover {
+    color: #00b63d;
+}
+button {
+    background-color: purple;
+    padding: 10px 20px; 
+    border: none;
+    border-radius: 20px; 
+    font-size: 16px; 
+    cursor: pointer;
+}
+h1{
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+/* sobre */
+
+p{
+    font-size: 20px;
+}
+form {
+    background-color: #ffffff85;
+    margin: 10px;
+    padding: 8px;
+    border-radius: 21px;
+    max-width: 400px;
+    cursor: pointer;
+}
+.sobrediv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8px;
+}
+
+/* sobre */
+/* servicos */
+
+.servicos {
+    padding: 60px 20px;
+    text-align: center;
+} 
+.servicos h2 {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+    color: #fff;
+} 
+.servicos-container {
+    display: flex;
+    justify-content: space-around;
+} 
+.servico {
+    background-color: #ffffff85;
+    padding: 40px;
+    border-radius: 12px;
+    width: 300px;
+    transition: transform 0.3s ease;
+} 
+.servico:hover {
+    transform: scale(1.05);
+}  
+.servico h3 {
+    color: purple;
+}
+.servico p {
+    color: black;
+}
+.servicosnav {
+    background-color: #333;
+    padding: 1rem;
+}
+
+/* servicos */
+/* produtos */
+
+
+.produtos {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.produtos img {
+    border-radius: 50px;
+    margin: 10px;
+    border:  4px solid purple;
+    cursor: pointer;
+}
+h3{
+    display: flex;
+    color: #00b63d;
+    justify-content: center;
+    align-items: center;
+    max-width: 200px;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+h3:hover{
+    color: purple;
+}
+.produtosnav {
+    background-color: #333;
+    padding: 1rem;
+}
+
+/* produtos */
+/* home */
+
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.video {
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+}
+label {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+.homenav {
+    background-color: #333;
+    padding: 1rem;
+}
+.menuhome {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.menuhome li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+.menuhome li a:hover {
+    color: #00b63d;
+}
+
+/* home */
+/* contato */
+
+
+img {
+    border-radius: 50px;
+    margin: 10px;
+    border:  4px solid rgb(255, 255, 255);
+    cursor: pointer;
+
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+input[type="text"],
+input[type="number"],
+input[type="tel"],
+input[type="email"],
+input[type="date"],
+input[type="password"] {
+    width: 99%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid purple;
+    border-radius: 21px;
+}
+button[type="submit"] {
+    background-color: rgba(35, 128, 35, 0.589);
+    color: white;
+}
+button[type="reset"] {
+    background-color: rgba(177, 32, 32, 0.685);
+    color: white;
+}
+.button-group {
+    display: flex;
+    justify-content: center;
+}
+.link {
+    color: white;
+    transition: color 0.3s;
+}
+.link li a:hover {
+    color: #00b63d;
+}
+.login {
+    background-color: rgb(27, 27, 27);
+    margin: auto;
+    padding: 80px;
+    border-radius: 21px;
+    max-width: 400px;
+    color: #00b63d;
+}
+.texto{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+/* javascript */
+
+body.temaClaro {
+    background-color: white;
+    color: black;
+}
+
+body.temaClaro nav,
+body.temaClaro .homenav,
+body.temaClaro .servicosnav,
+body.temaClaro .produtosnav {
+    background-color: #ddd;
+}
+
+body.temaClaro h1,
+body.temaClaro .texto,
+body.temaClaro .menu li a,
+body.temaClaro .menuhome li a,
+body.temaClaro .link {
+    color: black;
+}
+
+body.temaClaro label {
+    background-color: #eee;
+    color: black;
+}
+
+/* javascript */
+
+.temadiv {
+    display: flex;
+    justify-content: center;
+    color: white
+}
+.sobrediv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8px;
+    max-width: 1200px;
+    margin: auto;
+}
+.nav-sobre {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+    background-color: #333;
+    padding: 10px;
+}
+.nav-sobre li a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+.nav-sobre li a:hover {
+    color: #00b63d;
+}
+.servicos-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.servico {
+    background-color: #ffffff85;
+    padding: 20px;
+    border-radius: 12px;
+    width: 300px;
+    min-height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.servico button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+/* rodape */
+
+.rodape {
+    background-color: #222;
+    color: white;
+    padding-top: 20px;
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+.rodapeDiv {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.footerLogo {
+    text-align: center;
+}
+.footerLogo p {
+    margin-top: 8px;
+    font-size: 0.9em;
+}
+.redes a {
+    margin: 0 8px;
+}
+
+.rodapepe {
+    text-align: center;
+    padding: 10px;
+    background-color: #111;
+    font-size: 0.85em;
+}
+.crud {
+  display: flex;
+  justify-content: center; /* centraliza horizontalmente */
+  align-items: center;
+  gap: 10px; /* espaço entre input e botão */
+  flex-wrap: wrap;
+  margin: 20px auto;
+}
+
+#itemInput {
+  width: 300px; /* ou ajuste conforme necessário */
+  padding: 8px;
+  font-size: 16px;
+}

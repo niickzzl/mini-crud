@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="pt-br">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsivo.css">
+</head>
+<body>
+    <div class="temadiv"><button onclick="mudarTema()" id="botaoTema">Modo Claro</button></div>
+    <script src="script.js"></script>
+    <form action="">
+        <h2>Cadastro</h2>
+        <label for="name">Digite seu nome: </label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="telefone">Digite seu telefone: </label>
+        <input type="tel" id="telefone" name="telefone" required>
+
+        <label for="email">Digite seu e-mail: </label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="login">Digite seu login:</label>
+        <input type="text" id="login" name="login" required>
+
+        <label for="senha">Digite sua senha: </label>
+        <input type="password" id="senha" name="senha" maxlength="8" required>
+            <ul>
+                <li><a href="contato.html">Voltar</a></li>
+            </ul>
+            <div class="button-group">
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpar</button>
+    </div>
+</form>
+</body>
+</html>
